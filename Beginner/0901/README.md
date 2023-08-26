@@ -1,5 +1,5 @@
 <h2 align="center">0901</h2>
-### Lets do problems related to vector 
+###Lets do problems related to vector 
 
 1. Define a vector with 10 elements, fill it with $1 2 3 4 5 \dots  10$, and then print out the entire vector.
 2. Print the odd element: ```1 3 5 7 9```
