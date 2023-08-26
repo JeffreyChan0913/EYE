@@ -2,6 +2,8 @@
 
 ### Lets do problems related to vector 
 
+Incase you need some reference, you can use [THIS](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
+
 1. Define a vector with 10 elements, fill it with $1 2 3 4 5 \dots  10$, and then print out the entire vector.
 2. Print the odd element: ```1 3 5 7 9```
 3. Print the even element in reverse ```10 8 6 4 2```
