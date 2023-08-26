@@ -15,9 +15,9 @@ It seems like only 5 big topics, but the entire USACO Bronze are really based on
 
 Each session, we will work on problem solving, if we cant finish it during class, it will be your homework. Assuming we are going to have 6 months to learn.
 
-1. W1-W4 Problem solving with vectors and loops. Learning new function call on vectors.
-2. W5-W7 Problem solving with vectors and loops. Learn how to write a function.
-2. W8-W12 Problem solving with arrays and loops. Learning how to manipluate arrays.
+1. W01-W04 Problem solving with vectors and loops. Learning new function call on vectors.
+2. W05-W07 Problem solving with vectors and loops. Learn how to write a function.
+2. W08-W12 Problem solving with arrays and loops. Learning how to manipluate arrays.
 3. W13-W15 Problem solving with array like structures and hashing. Learning how to use array properly.
 4. W15-W17 Problem solving with array like structures and it's algorithms. Learn how to make some advance function calls on certain array like structures. 
 5. W18-W24 Problem solving what we have learned from W1-W17. We will be solving some easy bronze problems and some other harder problems that require some math and logic. 
