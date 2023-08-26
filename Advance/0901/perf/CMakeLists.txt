@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.13)
+project(CPP-PERFORMANCE)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
+set(executables arr arr_fastio arr_inloop gen vec vec_inloop vec_pushback_inloop vec_pushback_inloop_fastio)
+foreach(exe ${executables})
+	add_executable(${exe} ${exe}.cpp)
+endforeach()
