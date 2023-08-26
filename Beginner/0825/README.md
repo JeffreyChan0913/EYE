@@ -24,7 +24,7 @@ int main(){
 
 To define a variable, we will use the following template: ```const_or_not_const variable_type variable_name = some_value```
 
-##### input
+##### Input
 we use ```cin >> variable``` to get input and store it to variable.
 ```cpp
 #include <iostream>
@@ -36,6 +36,48 @@ int main(){
 	cout << "\nYour age is " << age << "\n";
 }
 ```
+
+##### Math / Arithemtic operators 
+1. +: addition
+2. -: subtraction
+3. *: multiplicaton
+4. /: division
+5. ( ): parenthesis 
+6. ++: increment by 1
+7. --: decrement by 1
+8. %: modulus, returns the division remainder
+
+##### Loop
+
+We have two major types of loops. 
+1. for loop
+2. while loop
+
+Unlike while loop, We use for loop when we know when we will stop. They do follow 1 rule with 3 components, starting point, stopping point and the update.
+
+For loop template: 
+```cpp 
+for(starting point; stopping point; update) {
+
+}
+```
+
+While loop template:
+```cpp 
+int starting_point;
+while(stopping_point){
+	update;
+}
+```
+
+Updates:
+1. update++
+2. ++update
+3. update--
+4. --update
+5. update+=1
+6. update-=1
+They are simply incrementing the update variable by 1. It can be modified such that it can be go by 2 or multiplication of 2. 
 
 ##### Vector
 Vector is basically a list from Python. We will need to include the vector tool box inorder for us to use it.
@@ -77,27 +119,26 @@ int main(){
 }
 ```
 
+What should we do if we would like to print a vector? First we need to know where would we like to start and stop. Since we want to print the entire vector and the index is starting from 0 upto the amount of elements, we can stop at ```vector_name.size()```.
 
-##### Loop
-
-We have 2 major types of loop. 
-1. for loop
-2. while loop
-
-Unlike while loop, We use for loop when we know when we will stop. They do follow 1 rule with 3 components, starting point, stopping point and the update.
-
-For loop template: 
-```cpp 
-for(starting point; stopping point; update) {
-
+```cpp
+#include <iostream>
+#include <vector>
+int main(){
+	vector<int> v(5,2);//define a vector with five elments in it with five 2s.
+	for(int i=0; i<v.size();++i) cout << v[i] << " ";
+	cout << "\n";
 }
 ```
 
-While loop template:
-```cpp 
-int starting_point;
-while(stopping_point){
-	update;
+We can do it with another type of loop (more advance and simpler way). 
+```cpp
+#include <iostream>
+#include <vector>
+int main(){
+	vector<int> v(5,2);//define a vector with five elments in it with five 2s.
+	for(auto &x:v) cout << x << " "; //this is the same with the following python code: for i in list_v:
+	cout << "\n";
 }
 ```
 
