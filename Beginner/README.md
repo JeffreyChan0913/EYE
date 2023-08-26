@@ -1,4 +1,4 @@
-<h2 align="center">0901</h2>
+<h2 align="center">Syllabus</h2>
 
 For this term, we will split things into two, solve problem with what we have learned and some new function calls or algorithms to manage our data. 
 
