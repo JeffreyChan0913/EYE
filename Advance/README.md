@@ -16,7 +16,7 @@ Each session, we will work on problem solving, if we cant finish it during class
 
 Albeit I don't know your schedule, here is my routine that prepare myself for interview as a PhD student (unit is in week).
 
-1. $\approx 25$ hrs of working
+1. $\approx 20$ hrs of working
 2. $\approx 35$ hrs of TA Duty
 3. $\approx 15$ hrs of research and TA meetings
 4. $\approx 40$ hrs of research
