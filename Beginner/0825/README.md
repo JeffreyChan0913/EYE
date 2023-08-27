@@ -39,12 +39,19 @@ int main(){
 
 ### Math / Arithemtic operators 
 1. ```+``` : addition
+
 2.```-```: subtraction
+
 3.```*``` : multiplicaton
+
 4.```/```: division
+
 5.```( )``` : parenthesis 
+
 6.```++``` : increment by 1
+
 7.```--``` : decrement by 1
+
 8.```%``` : modulus, returns the division remainder
 
 ### Loop
