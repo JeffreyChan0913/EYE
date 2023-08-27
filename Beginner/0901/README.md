@@ -10,7 +10,7 @@ There are few math terms one might want to learn in advance.
 	1. part of
 	2. in
 
-	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have an integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because $k=3$ and the $vector A$ does contain the value $3$ thats why we are saying $k\inA$.
+	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have an integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because $k=3$ and the $vector A$ does contain the value $3$ thats why we are saying $k\in A$.
 5. $\notin$ is the opposite of $\in$. 
 
 Incase you need some reference, you can use [THIS](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
