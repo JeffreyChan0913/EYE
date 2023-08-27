@@ -55,6 +55,9 @@ int main(){
 
 8.```%``` : modulus, returns the division remainder
 
+9.```x+=1```: is the same as ```x = x + 1```
+
+10.```x-=1```: is the same as ```x = x - 1```
 ### Loop
 
 We have two major types of loops. 
