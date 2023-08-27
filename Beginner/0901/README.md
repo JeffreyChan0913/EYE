@@ -9,6 +9,7 @@ There are few math terms one might want to learn in advance.
 4. $\in$, this symbol is saying
 	1. part of
 	2. in
+
 	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have a integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because k is also in the vector A.
 5. $\notin$ is the opposite of $\in$. 
 
