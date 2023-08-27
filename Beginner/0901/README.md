@@ -1,8 +1,20 @@
 <h2 align="center">0901</h2>
 
-### Lets do problems related to vector 
+### The Math Language
+
+There are few math terms one might want to learn in advance. 
+1. $1e9$, is equal to 1,000,000,000. To remember this, $e9$ is basically saying I have nine zeros.
+2. $2e9$, is basically saing, i have nine zeros and it starts at 2. Therefore, 2,000,000,000.
+3. $10e9$, this is saying i start with 10 and there is nine zeros at the back. Therefore, 10,000,000,000.
+4. $\in$, this symbol is saying
+	1. part of
+	2. in
+	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have a integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because k is also in the vector A.
+5. $\notin$ is the opposite of $\in$. 
 
 Incase you need some reference, you can use [THIS](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
+
+### Lets do problems related to vector 
 
 1. Define a vector with 10 elements, fill it with $1 2 3 4 5 \dots  10$, and then print out the entire vector.
 2. Print the odd element: ```1 3 5 7 9```
