@@ -17,7 +17,7 @@ int main(){
 
 ### Variable
 1. ```int``` or ```int32_t```: int is used when we have a whole number with the following range ```-2147483648 ... -2 -1 0 1 2 3 ...  2147483647```. By default, int has 32 bits which is $-2^{31} \dots 0 \dots 2^{31}-1$.
-2. ```int64_t``` or ```long long```: it has a larger range compared to int, so the range is ```-2^{63} \dots 0 \dots 2^{63}-1```
+2. ```int64_t``` or ```long long```: it has a larger range compared to int, so the range is $2^{63} \dots 0 \dots 2^{63}-1$
 3. ```double```: we use double to represent something that is in decimal. If we have a large / long decimal numbers, we will have accuracy errors. We will be fine to represent an integer whose absolute value is at most $2^{53}$.  
 4. ```string```: We can store anything in to string entailing white spaces. 
 5. ```char```: this is what we use to store one letter, for example: ```A```, ```!```, ```=```,```1```, and so on.
