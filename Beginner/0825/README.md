@@ -38,7 +38,8 @@ int main(){
 ```
 
 ### Math / Arithemtic operators 
-1. ```+``` : addition
+
+1.```+``` : addition
 
 2.```-```: subtraction
 
