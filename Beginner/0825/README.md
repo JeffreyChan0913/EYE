@@ -1,6 +1,6 @@
 <h2 align="center">0825 - Review</h2>
 
-#### Basic template to run a c++ code
+### Basic template to run a c++ code
 ```cpp
 #include <iostream>
 using namespace std;
@@ -15,8 +15,8 @@ int main(){
 4. ```cout << ```: is basically putting what ever after ```<<``` into the buffer, so the computer will get what ever in the buffer and put it to the screen.
 5. ```"Hello World\n"```: this is a string. To identify a string, we use ```"```. So if something is being sandwhiched with a```"```, that is a string. As for ```\n```, it is saying print a newline after ```Hello World```.
 
-#### Variable
-1. ```int``` or ```int32_t```: int is used when we have a whole number with the following range $-2147483648 \dots -3 -2 -1 0 1 2 3 \dots 2147483647$. By default, int has 32 bits which is $-2^{31} \dots 0 \dots 2^{31}-1$.
+### Variable
+1. ```int``` or ```int32_t```: int is used when we have a whole number with the following range ```-2147483648 ... -2 -1 0 1 2 3 ...  2147483647$. By default, int has 32 bits which is $-2^{31} \dots 0 \dots 2^{31}-1$.
 2. ```int64_t``` or ```long long```: it has a larger range compared to int, so the range is ```-2^{63} \dots 0 \dots 2^{63}-1```
 3. ```double```: we use double to represent something that is in decimal. If we have a large / long decimal numbers, we will have accuracy errors. We will be fine to represent an integer whose absolute value is at most $2^{53}$.  
 4. ```string```: We can store anything in to string entailing white spaces. 
@@ -24,7 +24,7 @@ int main(){
 
 To define a variable, we will use the following template: ```const_or_not_const variable_type variable_name = some_value```
 
-##### Input
+### Input
 we use ```cin >> variable``` to get input and store it to variable.
 ```cpp
 #include <iostream>
@@ -37,7 +37,7 @@ int main(){
 }
 ```
 
-##### Math / Arithemtic operators 
+### Math / Arithemtic operators 
 1. +: addition
 2. -: subtraction
 3. *: multiplicaton
@@ -47,7 +47,7 @@ int main(){
 7. --: decrement by 1
 8. %: modulus, returns the division remainder
 
-##### Loop
+### Loop
 
 We have two major types of loops. 
 1. for loop
@@ -56,38 +56,6 @@ We have two major types of loops.
 Unlike while loop, We use for loop when we know when we will stop. They do follow 1 rule with 3 components, starting point, stopping point and the update.
 
 For loop template: 
-```cpp 
-for(starting point; stopping point; update) {
-
-}
-```
-
-While loop template:
-```cpp 
-int starting_point;
-while(stopping_point){
-	update;
-}
-```
-
-Updates:
-1. update++
-2. ++update
-3. update--
-4. --update
-5. update+=1
-6. update-=1
-They are simply incrementing the update variable by 1. It can be modified such that it can be go by 2 or multiplication of 2. 
-
-##### Vector
-Vector is basically a list from Python. We will need to include the vector tool box inorder for us to use it.
-```cpp
-#include <vector> //Allow us to use vector in our code
-#include <iostream>
-int main(){
-	vector<int> v; // define a vector that takes in ONLY int with a name call v
-}
-```
 
 Vector use 0 index. So if we have 
 ```
