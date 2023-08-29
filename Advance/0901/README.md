@@ -12,7 +12,7 @@ tricks.
 So the idea of hashing is, you need to define a set of rules to figure out something instantly. If you can pre define a rule that helps you to figure out the location in a split of a second, thats call hashing. If we think about the alphabet, what is the location of a? what is the location of z?
 what is the location of j? One might need to sing the song from the beginning. As a result, lets look at the following.
 ```
-value	: a b c d e f g h i j	k	l	m	n	o	p	q	 r	 s	 t	 u	 v	 w	 x	 y	 z
+value	: a b c d e f g h i j	k   l	m	n	o	p	q	 r	 s	 t	 u	 v	 w	 x	 y	 z
 position: 1 2 3 4 5 6 7 8 9 10	11  12  13  14 15  16	17	18	19	20	21	22	23	24	25	26
 ```
 
