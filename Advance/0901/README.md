@@ -47,8 +47,7 @@ The question that we have now is $\textit{How to convert the values from a to 1 
 2. We have $a\mapsto 97$, $b\mapsto 98$, ... $z \mapsto 122$. 
 
 The distance between $a\mapsto 1$ and $a\mapsto 97$ is 96, 97-1 = 96. Which means if we subtract each ASCII values with 96, we will able to normalize the values, which is 
-$$f(x)=x-96 \text{ } | \text{ } x \in \{ASCII(a), \text{ } \dots, ASCII(z)\}, \text{ } y \in \{1,\dots,26}$$
-Since this is a hash function, we will denote our function $f(x)$ to $h(x)$.  
+$$h(x)=x-96 \text{ } | \text{ } x \in \{ASCII(a), \text{ } \dots, ASCII(z)\}, \text{ } y \in \{1,\dots,26}$$
 lets try a few values. a,b,j,and z.
 1. $h(ASCII(a)) = 97-96 = 1$
 2. $h(ASCII(b)) = 98-96 = 2$
