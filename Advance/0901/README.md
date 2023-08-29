@@ -27,7 +27,7 @@ Approach 1:
 
 Physically add all the lower case alphabets a to z into the array. When we want the location, we just search it and retrieve its index that has to be our value. 
 
-So our function is : $h(x) \mapsto \;  y \; | x \in \text{alphabet}, y \in \{1,\dots,26\}$ 
+So our function is : $h(x) \mapsto \text{ }  y \text{ }  | x \in \text{alphabet}, y \in \{1,\dots,26\}$ 
 
 Approach 2: 
 
