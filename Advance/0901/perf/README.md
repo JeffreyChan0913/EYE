@@ -8,9 +8,7 @@ Unlike vector, the size of the array is fixed. Perhaps, the key word here is **f
 1. Reference(1) - Scroll down to page 41 [link](https://ocw.mit.edu/courses/6-s096-introduction-to-c-and-c-january-iap-2013/bba9056d5290198d563edc47dfcff0e9_MIT6_S096_IAP13_lec3.pdf)
 2. Reference(2) - Scroll to Dynamically Allocated Array [link](https://www.cs.swarthmore.edu/~newhall/unixhelp/C_arrays.html#:~:text=dynamically%20allocated%20arrays&text=To%20dynamically%20allocate%20space%2C%20use,space%20of%20the%20passed%20size.)
 
-Since the size of the C-Style array is fixed and you are not suppose to change the size at run time, as a result, we do not have to care about adding new elements into the array with sizing issue.
-
-At a high level, when we declare an array, we need to know the size in advance. Moreover, once we know the amount of elements, $n, n \in \mathbb{Z}^+$, we simply allocate the memory from the computer with a size n. 
+Since the size of the C-Style array is fixed and you are not suppose to change the size during run time, as a result, we do not have to care about adding new elements into the array with sizing issue. At a high level, when we declare an array, we need to know the size in advance. Moreover, once we know the amount of elements, $n, n \in \mathbb{Z}^+$, we simply allocate the memory from the computer with a size n. 
 
 ```c
 	const int n = 10;
@@ -41,6 +39,8 @@ by a factor of 2. So the operation of ```push_back``` in the worst case is ```O(
 up to the specification will save you some time. It won't be a lot if the size is relatively small, however, if the size is sufficiently large, the impact will be severly preposterous.
 
 As a result, the adriot a data structure is, the move unscrupulous it is. So, no free lunch. 
+
+The implementation will be similar from above code. What they use is ```iterator```, ```new```, and ```delete```
 
 Reference(3) - Read the entire page [link](https://cplusplus.com/reference/vector/vector/push_back/)
 
