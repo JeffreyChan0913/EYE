@@ -35,12 +35,12 @@ What would happen in this case?
 ### Lets do problems 
 
 In case you need reference on vector, you can use this [LINK](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
-
-1. Define a vector with 10 elements, fill it with ```1 2 ... 9 10```, and then print out the entire vector.
-2. Print the odd element: ```1 3 5 7 9```
-3. Print the even element in reverse ```10 8 6 4 2```
-4. Get two integer inputs, a and b, where $a, b \in \mathbb{Z}, a < b$ that prints ```a a+1 a+2 ... b-1 b```. For example, a=5 b=6, we should see ```5 6```.
-5. You are asked to help your professor to create a light weight calculator to calculate the average for the class. You were told that no one get lower than 77 and of course, maximum value we can get is 100. Output one number that is the average. One might discard the values that are not in
+1. How can we exchange values between two variables? For example, if ```a = 10``` and ```b=20```, how can we exchange the value to ```a=20``` and ```b=10```?
+2. Define a vector with 10 elements, fill it with ```1 2 ... 9 10```, and then print out the entire vector.
+3. Print the odd element: ```1 3 5 7 9```
+4. Print the even element in reverse ```10 8 6 4 2```
+5. Get two integer inputs, a and b, where $a, b \in \mathbb{Z}, a < b$ that prints ```a a+1 a+2 ... b-1 b```. For example, a=5 b=6, we should see ```5 6```.
+6. You are asked to help your professor to create a light weight calculator to calculate the average for the class. You were told that no one get lower than 77 and of course, maximum value we can get is 100. Output one number that is the average. One might discard the values that are not in
 range.
 
 First number, n, will represent how many grades you have to calculate, and the next n values will be the grades.
