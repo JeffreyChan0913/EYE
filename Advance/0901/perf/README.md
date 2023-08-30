@@ -1,6 +1,6 @@
 # Performance Test for CPP C-Style Array vs C++ STL Vector
 
-First, you will need a linux machine with certain packages installed to run the code, as a result, i will not entail the instructions since it will complicated things and envirnoments setting is potentially a disaster. 
+Initially, you'll require a Linux machine with specific packages installed to execute the code. Consequently, instructions on running the code will not be furnished, as they could complicate matters, and configuring the environment might lead to potential issues.
 
 ### C-Style Array 
 Unlike vector, the size of the array is fixed. Perhaps, the key word here is **fixed**. Before we know how vectory works, we need to know, briefly, how a basic C-Style array operates. 
