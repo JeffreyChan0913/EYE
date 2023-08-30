@@ -13,7 +13,7 @@ There are few math terms one might want to learn in advance.
 	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have an integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because $k=3$ and the $vector A$ does contain the value $3$ thats why we are saying $k\in A$.
 5. $\notin$ is the opposite of $\in$. Example: if we define an integer $m$ and set it to -5. Since the vector $A$ does not contain the value of $-5$, therefore; we can say $m \notin A$. 
 
-### Lets do problems related to vector 
+### Lets do problems 
 
 In case you need some reference, you can use this [LINK](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
 
