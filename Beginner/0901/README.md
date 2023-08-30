@@ -4,8 +4,8 @@
 
 There are few math terms one might want to learn in advance. 
 1. $1e9$, is equal to 1,000,000,000. To remember this, $e9$ is basically saying I have nine zeros.
-2. $2e9$, is basically saing, i have nine zeros and it starts at 2. Therefore, 2,000,000,000.
-3. $10e9$, this is saying i start with 10 and there is nine zeros at the back. Therefore, 10,000,000,000.
+2. $2e9$, is basically saying, I have nine zeros and it starts at 2. Therefore, 2,000,000,000.
+3. $10e9$, this is saying I start with 10 and there is nine zeros at the back. Therefore, 10,000,000,000.
 4. $\in$, this symbol is saying
 	1. part of
 	2. in
@@ -13,15 +13,35 @@ There are few math terms one might want to learn in advance.
 	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have an integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because $k=3$ and the $vector A$ does contain the value $3$ thats why we are saying $k\in A$.
 5. $\notin$ is the opposite of $\in$. Example: if we define an integer $m$ and set it to -5. Since the vector $A$ does not contain the value of $-5$, therefore; we can say $m \notin A$. 
 
+### Deep Thinking
+
+We know that we can keep adding values to the vector that is commonly called dynamic array, what happen if we define a vector as follow:
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+int main(){
+	vector<int> v(5);
+	for(int i=0; i<v.size();++i) cin>>v[i];
+}
+```
+
+What if we want to add another element to the vector ```v``` with ```push_back```?
+
+What would happen in this case?
+
+**Spoiler Alerts**, different systems and compilers might act differently. In general, they are similar. 
+
 ### Lets do problems 
 
-In case you need some reference, you can use this [LINK](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
+In case you need reference on vector, you can use this [LINK](https://github.com/JeffreyChan0913/EYE/tree/main/Beginner/0825)
 
 1. Define a vector with 10 elements, fill it with ```1 2 ... 9 10```, and then print out the entire vector.
 2. Print the odd element: ```1 3 5 7 9```
 3. Print the even element in reverse ```10 8 6 4 2```
 4. Get two integer inputs, a and b, where $a, b \in \mathbb{Z}, a < b$ that prints ```a a+1 a+2 ... b-1 b```. For example, a=5 b=6, we should see ```5 6```.
-5. You are asked to help your professor to create a light weight calculator to calculate the average for the class. You were told that no one get lower than 77 and of course, maximum value we can get is 100. Output one number that is the average.
+5. You are asked to help your professor to create a light weight calculator to calculate the average for the class. You were told that no one get lower than 77 and of course, maximum value we can get is 100. Output one number that is the average. One might discard the values that are not in
+range.
 
 First number, n, will represent how many grades you have to calculate, and the next n values will be the grades.
 
