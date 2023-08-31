@@ -12,7 +12,7 @@ There are few math terms one might want to learn in advance.
 
 	Exmaple: A is a vector that is defined as follow: ```A = {1,2,3,4,5}```. Now if we have an integer variable ```k``` and it has a value of 3. Then we can say $k \in A$ because $k=3$ and the $vector A$ does contain the value $3$ thats why we are saying $k\in A$.
 5. $\notin$ is the opposite of $\in$. Example: if we define an integer $m$ and set it to -5. Since the vector $A$ does not contain the value of $-5$, therefore; we can say $m \notin A$. 
-6. $10^5$ is saying, $10 \times$ itself for 5 times. So, $10 \times 10 \times 10 \times 10 \times 10$ = 100000.
+6. $10^5$ is saying, $10 \times$ itself for 5 times. So, $10 \times 10 \times 10 \times 10 \times 10$ = 100000. Faster way to do it in your head is, let $b$ be the base, let $x$ be the exponent term such that $b:=10, \text{ } x \in \mathbb{Z}^+$. Since the base is 10, we have to add x amount of 0. For example, 10^3, I have three zeros after 1 that is 1000. 
 
 ### Deep Thinking
 
