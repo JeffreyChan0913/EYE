@@ -56,5 +56,5 @@ lets try a few values. a, b, j, and z.
 
 #### Time Complexity
 
-The time complexiy for a basic hash table is $O(1)$. Specifically, if we are using a $1:1$ mapping and we already know the size and all the values are unique without any collision, then the time complexity will be $O(1)+\epsilon$. If we remove the overhead, it will be $O(1)$. However, if we are
-using other built in hashing structures and the size is unknown plus the values are not guaranteed to be unique ($1\mapsto \textit{ many}$ then the **amortized** time is $O(1)$.
+The time complexiy for a basic hash table is $O(1)$. Specifically, if we are using a $1:1$ mapping and we already know the size and all the values are unique without any collisions, then the time complexity will be $O(1)+\epsilon$. If we remove the overhead, it will be $O(1)$. However, if we are
+using other built in hashing structures and the size is unknown plus the values are not guaranteed to be unique ($1\mapsto \textit{ many})$ then the **amortized** time is $O(1)$.
