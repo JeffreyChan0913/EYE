@@ -1,4 +1,5 @@
 #include <iostream>
+#include vector<int> a;
 using namespace std;
 vector<int> a(10000000);
 int main(){
