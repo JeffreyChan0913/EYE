@@ -43,7 +43,7 @@ In case you need reference on vector, you can use this [LINK](https://github.com
 1. Define a vector with 10 elements, fill it with ```1 2 ... 9 10```, and then print out the entire vector.
 2. Print the odd element: ```1 3 5 7 9```
 3. Print the even element in reverse ```10 8 6 4 2```
-4. Get two integer inputs, a and b, where $a, b \in \mathbb{Z}, a < b$ that prints ```a a+1 a+2 ... b-1 b```. For example, a=5 b=6, we should see ```5 6```. In other words, you are suppose to print $[a,b)$.
+4. Get two integer inputs, a and b, where $a, b \in \mathbb{Z}, a < b$ that prints ```a a+1 a+2 ... b-1 b```. For example, a=5 b=6, we should see ```5 6```. In other words, you are suppose to print $[a-1,b)$.
 
 input:
 ```
