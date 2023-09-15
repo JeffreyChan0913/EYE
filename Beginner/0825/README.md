@@ -86,7 +86,7 @@ We do have the following functions that we can use on vector.
 4. ```vector_name[position]```: we can retrieve the a value at position from vector_name. This square bracket method will not cehck the bound for us. so we need to know what we are doing.
 5. ```vector_name.at(position)```: same as 4, however, it will check if the given position is in bound or not. For example, if we have 5 elements in a vector v, ```v.at(100)``` will give us an error.
 
-To define a vector we will use the following template: ```vector<data_type> vector_name_aka_variable_name;
+To define a vector we will use the following template: ```vector<data_type> vector_name_aka_variable_name```;
 
 ```cpp
 #include <vector> //Allow us to use vector in our code
