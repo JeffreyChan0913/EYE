@@ -15,7 +15,7 @@ int main(){
 4. ```cout << ```: is basically putting what ever after ```<<``` into the buffer, so the computer will get what ever in the buffer and put it to the screen.
 5. ```"Hello World\n"```: this is a string. To identify a string, we use ```"```. So if something is being sandwhiched with a```"```, that is a string. As for ```\n```, it is saying print a newline after ```Hello World```.
 
-### Variable
+### Variable - Data Type
 
 1. ```int``` or ```int32_t```: int is used when we have a whole number with the following range ```-2147483648 ... -2 -1 0 1 2 3 ...  2147483647```. By default, int has 32 bits which is $-2^{31} \dots 0 \dots (2^{31}-1)$.
 
