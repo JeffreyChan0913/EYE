@@ -10,8 +10,8 @@ One day, Jeffrey is so into number. He wants to know, from a sequence of number,
 Help Jeffrey to find that value.
 
 1. first value is a positive integer that denotes as the number of test cases.
-2. each test case will start with a positive integer that indicates the size of $A$, wehre the size is $1 \leq size \leq 1000000$.
-3. followed by, the values for $A$, where $1\leq a_i \leq 500000$.
+2. each test case will start with a positive integer that indicates the size of $A$, wehre the size is $1 \leq size \leq 200000$.
+3. followed by, the values for $A$, where $1\leq a_i \leq 10e9$.
 
 input
 ```
