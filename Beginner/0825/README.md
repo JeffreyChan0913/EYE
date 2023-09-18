@@ -73,7 +73,7 @@ Unlike while loop, We use for loop when we know when we will stop. They do follo
 
 For loop template: 
 
-Vector use 0 index. So if we have 
+Vector uses 0 index. So if we have 
 ```
 value	: 10 20 30 40 50
 position: 0  1  2  3  4
