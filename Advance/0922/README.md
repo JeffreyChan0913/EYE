@@ -22,7 +22,7 @@ Our following example is the following starter code,
  }
 ```
 
-#### Sort
+### Sort
 
 ```cpp
 sort(a,a+n,greater<int>());
@@ -41,7 +41,7 @@ sort(v.begin()+1,v.begin()+6);
 The output will become
 ```10 5 6 7 8 9 4 3 2 1```
 
-#### Find
+### Find
 
 ```cpp
 auto vit = find(v.begin(),v.end(),5);
@@ -81,7 +81,7 @@ The output is
 1 2 3 9 10
 ```
 
-#### Distance
+### Distance
 reference: ```1 2 3 4 5 6 7 8 9 10```
 
 ```cpp
@@ -95,7 +95,7 @@ The output is
 5
 ```
 
-#### Accumulate
+### Accumulate
 ```cpp
 cout << "start of value as 0: " << accumulate(a,a+n,0) << ", start of value as 10: " << accumulate(a,a+n,10) << "\n";
 cout << "start of value as 0: " << accumulate(v.begin(), v.end(),0) << ", start of value as 10: " << accumulate(v.begin(),v.end(),10) << "\n";
@@ -106,7 +106,14 @@ start of value as 0: 55, start of value as 10: 65
 start of value as 0: 55, start of value as 10: 65
 ```
 
-####Extra topic on **overloading**. 
+### Memset
+
+```cpp
+memset(a,0,4*n);
+```
+
+
+### Extra topic on **overloading**. 
 
 ```cpp
 #pragma gcc optimizer   ("O3")
@@ -138,7 +145,7 @@ Output
 ```
 1 2 3 4 5 6 7 8 9 10
 ```
-#### Problem 1
+### Problem 1
 ##### time limit per test case: 1 second 
 Use the same constraint from the last problem to find the amount of unique values. 
 
