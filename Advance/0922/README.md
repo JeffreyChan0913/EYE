@@ -108,6 +108,7 @@ start of value as 0: 55, start of value as 10: 65
 
 ### Memset
 
+Depends on what you are doing, usually reset to 0 and 4*n where 4 is the size of int and n is the amount of values we have. The math will give us total amount of bytes we would need to reset.
 ```cpp
 memset(a,0,4*n);
 ```
