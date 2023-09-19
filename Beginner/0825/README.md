@@ -72,7 +72,16 @@ We have two major types of loops.
 Unlike while loop, We use for loop when we know when we will stop. They do follow 1 rule with 3 components, starting point, stopping point and the update.
 
 For loop template: 
-
+```cpp
+for(start, stop, update)
+```
+While loop template:
+```cpp
+start
+while(stop){
+	update
+}
+```
 Vector uses 0 index. So if we have 
 ```
 value	: 10 20 30 40 50
