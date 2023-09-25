@@ -20,7 +20,7 @@ Step 1:
 ^ |->
 ```
 
-The symbol ```^``` referring to fix this value, and ```\->``` referring to find the smallest value starting from this point. Then, once we are done, check if the smallest value beyond ```|->``` is smaller then ^. If true that means we should exchange position. 
+The symbol ```^``` referring to fix this value, and ```|->``` referring to find the smallest value starting from this point. Then, once we are done, check if the smallest value beyond ```|->``` is smaller then ^. If true that means we should exchange position. 
 
 Step 2:
 ```
