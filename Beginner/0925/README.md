@@ -17,7 +17,7 @@ That means, if we keep finding the smallest value out of the data sequence, and 
 Step 1: 
 ```
 5 9 3 2 11
-^ |->
+^ |------->
 ```
 
 The symbol ```^``` referring to fix this value, and ```|->``` referring to find the smallest value starting from this point. Then, once we are done, check if the smallest value beyond ```|->``` is smaller then ^. If true that means we should exchange position. 
@@ -25,17 +25,17 @@ The symbol ```^``` referring to fix this value, and ```|->``` referring to find 
 Step 2:
 ```
 2 9 3 5 11
-  ^ |->
+  ^ |----->
 ```
 Repeat the same thing.
 ```
 2 3 9 5 11
-    ^ |->
+    ^ |--->
 ```
 Next,
 ```
 2 3 5 9 11
-      ^ |->
+      ^ |-->
 ```
 Last,
 ```
