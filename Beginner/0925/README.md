@@ -35,12 +35,12 @@ Repeat the same thing.
 Next,
 ```
 2 3 5 9 11
-	  ^ |->
+      ^ |->
 ```
 Last,
 ```
 2 3 5 9 11
-	    ^  |-> 
+         ^  |-> 
 ```
 
 Done.
