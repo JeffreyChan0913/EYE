@@ -6,9 +6,7 @@ You are given multiple set of data, where the values will be the mixtures of who
 
 The formula for average:
 
-$$\hat{\mu} = \frac{\sum^{n}_{i=1} a_i}{n} $$
-
-$$\[ \sum_{n=1}^{\infty} 2^{-n} = 1 \]$$
+$$\hat{\mu} = \frac{ \sum_{i=1}^{n} a_i}{n} $$
 
 First input value will be the amount of test cases.
 
