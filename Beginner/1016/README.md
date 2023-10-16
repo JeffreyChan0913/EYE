@@ -4,6 +4,9 @@
 
 You are given multiple set of data, where the values will be the mixtures of whole number and deciamls, and you will have to calculate the average for the class and numbers of As and the range of A is \[90,100\].
 
+The formula for average:
+$$ \hat{\mu} = \frac{\sum_{i=1}^{n} a_i}{n}$$
+
 First input value will be the amount of test cases.
 
 Second value will tell you the amount, $n \geq 0$,  of grades you will be getting.
