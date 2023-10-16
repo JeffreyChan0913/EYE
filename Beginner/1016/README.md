@@ -8,6 +8,8 @@ The formula for average:
 
 $$\hat{\mu} = \frac{\sum^{n}_{i=1} a_i}{n} $$
 
+$$\[ \sum_{n=1}^{\infty} 2^{-n} = 1 \]$$
+
 First input value will be the amount of test cases.
 
 Second value will tell you the amount, $n \geq 0$,  of grades you will be getting.
