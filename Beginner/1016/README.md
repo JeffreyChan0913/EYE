@@ -1,5 +1,7 @@
 <h2 align="center">1016 - Basic Input Output Problem</h2>
-### Problem description
+
+###Problem description
+
 You are given multiple set of data and you will have to calculate the average for the class and numbers of As. 
 For example,
 
