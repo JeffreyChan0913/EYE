@@ -8,7 +8,7 @@ The formula for average:
 
 $$
 \begin{equation}
-\hat{\mu} = \frac{ \sum_{i=1}^{n} a_i }{n}
+\hat{\mu} = \sum_{i=1}^{n} a_i \times n^{-1}
 \end{equation}
 $$
 
