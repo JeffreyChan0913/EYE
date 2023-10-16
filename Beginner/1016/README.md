@@ -22,8 +22,8 @@ Input:
 ```
 Output:
 ```
-66.6666666667 1
-93.5 1
+66.6667 1
+93.5  1
 ```
 
 <font size = 1>Last Updated: 10-16-2023, 15:55:00pm DIY</font>
