@@ -6,7 +6,11 @@ You are given multiple set of data, where the values will be the mixtures of who
 
 The formula for average:
 
-$$\hat{\mu} = \frac{ \sum_{i=1}^{n} a_i }{n} $$
+$$
+\begin{equation}
+\hat{\mu} = \frac{ \sum_{i=1}^{n} a_i }{n}
+\end{equation}
+$$
 
 First input value will be the amount of test cases.
 
