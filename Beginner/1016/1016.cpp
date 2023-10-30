@@ -6,7 +6,7 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-	int t,n;
+    int t,n;
     double avg;
     cin>>t;
     while(t--){
