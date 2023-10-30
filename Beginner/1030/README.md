@@ -14,7 +14,7 @@ a1 a_2 ... a_n2
 .
 .
 .
-n
-a_1 a_2 ... a_n
+n_t
+a_1 a_2 ... a_nt
 ```
 <font size = 1>Last Updated: 10-30-2023, 16:23:00pm DIY</font>
