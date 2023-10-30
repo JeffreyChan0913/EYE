@@ -14,11 +14,11 @@ int main(){
         int a=0;
         cin>>n;
         double tn;
-	for(int i=0;i<n;++i){	
+	    for(int i=0;i<n;++i){	
             cin >> tn;
             avg += tn;
             a += (tn >= 90.00);
-    }
+        }
         cout << avg / n << " " << a << "\n"; 
     }
 }
