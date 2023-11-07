@@ -1,4 +1,4 @@
-<h2 align="center">1016 - Basic Input Output Problem</h2>
+<h2 align="center">1030 - Basic Input Output Problem</h2>
 
 ### Problem description
 1. Find the largest sum of two values
