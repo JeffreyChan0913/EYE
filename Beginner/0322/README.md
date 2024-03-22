@@ -2,7 +2,7 @@
 
 ### Problem description
 
-Sophy's teacher asks her to count certain numbers in a given list. The list will have n numbers and k values will be assigned. The end goal is to output the value frequency that Sophy's teacher cares about. 
+Sophy's teacher asks her to count certain numbers, $k1, k2, ..., k_k$ in a given list $a$. The list will have n numbers and k values will be assigned. The end goal is to output the value frequency that Sophy's teacher cares about. 
 
 Sophy is having issue with counting numbers. Shall we give her a hand on countin those numbers? 
 
