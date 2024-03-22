@@ -2,7 +2,7 @@
 
 ### Problem description
 
-Sophy's teacher has $K$ target numbers, $k1, k2, ..., k_k$. Meanwhile, her professor will give her a list $a$ that has a length of n. The end goal is to output the value frequency that Sophy's teacher cares about. 
+Sophy's teacher has $K$ target numbers, $k1, k2, ..., k_k$ and will give her a list $a$ that has a length of n. The end goal is to output the value frequency that Sophy's teacher cares about. 
 
 Sophy is having issue with counting numbers. Shall we give her a hand on countin those numbers? 
 
